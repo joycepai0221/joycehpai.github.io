@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hsuan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Noto+Serif+TC&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-left">
+                    <a class="home-link" href="#hero">
+                        <img class="logo" src="asset/img/logo.png" alt="Hsuan's Portfolio">
+                    </a>
+                </div>
+                <div class="nav-right">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#hero">Home</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#porfolio">Portfolio</a>
+                        </li>
+                    </ul>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram-f"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container" id="hero">
+            <div class="hero">
+                <!-- <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./asset/img/selfie.jpg" alt="Avatar">
+                        </div>
+                        <div class="flip-card-back">
+                            <img src="./asset/img/desktop.avif" alt="">
+                            <button class="toggle-btn">switch</button>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="selfie-wrapper" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="./asset/img/selfie.jpg" alt="">
+                </div>
+                <div class="content" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="content-1">
+                        <div class="greeting">
+                            <div class="greeting-wrapper">
+                                <h2>Hi! I am a</h2>
+                                <span id="element" class="typing"></span>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <p class="paragraph-1">
+                                As a self-taught frontend developer, I started to approach javascript not until
+                                January,2020. I was fascinating by how capable JavaScript is back at that time.
+                                Initially, I
+                                simply wanted to build my own website.But later I found that maybe I should try it by
+                                myself.
+                            </p>
+                            <p class="paragraph-1">
+                                As a self-taught frontend developer, I started to approach javascript not until
+                                January,2020. I was fascinating by how capable JavaScript is back at that time.
+                                Initially, I
+                                simply wanted to build my own website.But later I found that maybe I should try it by
+                                myself.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="content-2">
+                        <div class="greeting">
+                            <div class="greeting-wrapper">
+                                <h2>Hi! I am a</h2>
+                                <span id="element" class="typing"></span>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <p class="paragraph-1">
+                                As a self-taught frontend developer, I started to approach javascript not until
+                                January,2020. I was fascinating by how capable JavaScript is back at that time.
+                                Initially, I
+                                simply wanted to build my own website.But later I found that maybe I should try it by
+                                myself.
+                            </p>
+                            <p class="paragraph-1">
+                                As a self-taught frontend developer, I started to approach javascript not until
+                                January,2020. I was fascinating by how capable JavaScript is back at that time.
+                                Initially, I
+                                simply wanted to build my own website.But later I found that maybe I should try it by
+                                myself.
+                            </p>
+                        </div>
+                    </div> -->
+                    <a class="btn" href="#about"><span>Learn More</span></a>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about container" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="title">About</h3>
+                <div class="">
+                    <div class="paragraph-2">
+                        An analytical problem solver and persuasive communicator with talent for thinking outside box
+                        for creative solutions and embrace challenges.
+                    </div>
+                    <div class="about-content">
+                        <div class="fact">
+                            <div class="col">
+                                <div><i class="fa-solid fa-angle-right"></i>Birthday: <span>1994-12-20</span></div>
+                                <div><i class="fa-solid fa-angle-right"></i>Phone: <span>(+886)0976-042-683</span></div>
+                                <div><i class="fa-solid fa-angle-right"></i>City: <span>Taipei,Taiwan</span></div>
+                                <div><i class="fa-solid fa-angle-right"></i>Working Status: <span>Available</span></div>
+
+                            </div>
+                            <div class="col">
+                                <div><i class="fa-solid fa-angle-right"></i>Age: <span>28</span></div>
+                                <div><i class="fa-solid fa-angle-right"></i>Email: <span>joycehpai@gmail.com</span>
+                                </div>
+                                <div><i class="fa-solid fa-angle-right"></i>Degree: <span>Bachelor</span></div>
+                                <div><i class="fa-solid fa-angle-right"></i>Hobbies: <span>Swimming, Writting
+                                        Articles</span></div>
+
+                            </div>
+                        </div>
+                        <!-- <div class="img-wrapper"><img src="./asset/img/desktop.avif" alt=""></div> -->
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="bg-dark" id="resume">
+            <div class="resume container">
+                <div class="title" data-aos="fade-right" data-aos-duration="1500">Resume</div>
+                <div class="resume-content">
+                    <div class="col">
+                        <div class="sub-section" data-aos="fade-right" data-aos-duration="2100">
+                            <div class="sub-title">
+                                Education
+                            </div>
+                            <div class="bar">
+                                <div class="dot">
+                                    <div class="dot-content">
+                                        <p>BACHELOR OF ECONOMICS</p>
+                                        <div class="tag">2014 - 2019</div>
+                                        <p class="location"><i>National Taiwan University, Taiwan</i></p>
+                                        <p class="desc">Ranked top 10% in the class</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sub-section" data-aos="fade-right" data-aos-duration="2700">
+                                <div class="sub-title">
+                                    Professional Experience
+                                </div>
+                                <div class="bar">
+                                    <div class="dot">
+                                        <div class="dot-content">
+                                            <p>Data Analyst</p>
+                                            <div class="tag">2022/09 - 2023/03</div>
+                                            <p class="location"><i>LION TRAVEL SERVICE CO., LTD
+                                                </i></p>
+                                        </div>
+                                    </div>
+                                    <div class="dot">
+                                        <div class="dot-content">
+                                            <p>Data Analyst</p>
+                                            <div class="tag">2022/04 - 2022/08</div>
+                                            <p class="location"><i>Angel Heart Family Social Welfare Foundation Service
+                                                </i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="sub-section">
+                            <div class="sub-title">
+                                Skills
+                            </div>
+                            <div class="skill-content">
+                                <div class="section" data-aos="fade-left" data-aos-duration="1500">
+                                    <div class="progress">
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                    <span>HTML</span>
+                                </div>
+                                <div class="section" data-aos="fade-left" data-aos-duration="1800">
+                                    <div class="progress">
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                    <span>CSS</span>
+                                </div>
+                                <div class="section" data-aos="fade-left" data-aos-duration="2100">
+                                    <div class="progress">
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="section" data-aos="fade-left" data-aos-duration="2400">
+                                    <div class="progress">
+                                        <div class="progress-bar"></div>
+                                    </div>
+                                    <span>MySQL</span>
+                                </div>
+                            </div>
+                            <div class="sub-section" data-aos="fade-left" data-aos-duration="2700">
+                                <div class="sub-title">Note</div>
+                                <a href="#" class="note-link">2023 Frontend Roadmap</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="porfolio">
+            <div class="portfolio container">
+                <div class="title" data-aos="fade-up" data-aos-duration="2400">Porfolio</div>
+                <div class="projects">
+                    <div class="project" data-aos="fade-up" data-aos-duration="500">
+                        <img src="./asset/img/todo-list.png" alt="">
+                        <div class="tool-group">
+                            <div class="modal">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <a href="" class="link">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./asset/img/todo-list.png" alt="">
+                        <div class="tool-group">
+                            <div class="modal">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <a href="" class="link">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="./asset/img/todo-list.png" alt="">
+                        <div class="tool-group">
+                            <div class="modal">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <a href="" class="link">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="fade-up" data-aos-duration="2000">
+                        <img src="./asset/img/todo-list.png" alt="">
+                        <div class="tool-group">
+                            <div class="modal">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <a href="" class="link">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="fade-up" data-aos-duration="2500">
+                        <img src="./asset/img/todo-list.png" alt="">
+                        <div class="tool-group">
+                            <div class="modal">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <a href="" class="link">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="fade-up" data-aos-duration="3000">
+                        <img src="./asset/img/todo-list.png" alt="">
+                        <div class="tool-group">
+                            <div class="modal">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            </div>
+                            <a href="" class="link">
+                                <i class="fa-solid fa-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        © 2023 914Studio, Taipei, Taiwan
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        AOS.init();
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer'],
+            typeSpeed: 120,
+            startDelay: 2000,
+            // backSpeed: 100,
+            // loop: true,
+            // loopCount: Infinity,
+            showCursor: false,
+        });
+    </script>
+    <!-- <script src="./src/index.js"></script> -->
+
+</body>
+
+</html>
