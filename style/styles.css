@@ -5,6 +5,9 @@ html {
     scroll-behavior: smooth;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden!important;
     overflow-x: hidden!important;
 }
