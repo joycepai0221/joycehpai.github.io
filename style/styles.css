@@ -28,6 +28,9 @@ a{
     color: #fff;
     background: rgb(219, 0, 0);
 }
+section{
+    width:100%;
+}
 section:nth-child(1) {
     height: 100vh;
     margin-bottom: 30px;
@@ -648,6 +651,12 @@ a.note-link:hover {
     div.progress-bar{
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .paragraph-2{
+        margin-bottom: 30px;
+    }
+    .portfolio{
+        width:100%;
     }
     .project {
         width: 100%;
