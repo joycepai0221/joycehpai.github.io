@@ -545,6 +545,9 @@ a.note-link:hover {
 
 @media screen and (max-width: 768px){
     body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             overflow-x: hidden !important;
         }
     .mobile-mode{
@@ -650,6 +653,8 @@ a.note-link:hover {
     div.progress-bar{
         margin-top: 0;
         margin-bottom: 0;
-
+    }
+    .project {
+        width: 80%;
     }
 }
