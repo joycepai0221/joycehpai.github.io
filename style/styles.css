@@ -629,6 +629,7 @@ a.note-link:hover {
         justify-content: space-between;
     }
     section:nth-child(2) {
+        height:unset;
         padding-top: 10px;
         padding-bottom: 10px;
     }
