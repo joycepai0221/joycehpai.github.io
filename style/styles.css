@@ -5,6 +5,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
+    overflow: hidden!important;
     overflow-x: hidden!important;
 }
 a{
@@ -504,7 +505,7 @@ a.note-link:hover {
     width: 100%;
     height: 50px;
 }
-.tool-group .modal,.tool-group .link{
+.tool-group .link{
     width:100%;   
     display: flex;
     justify-content: center;
@@ -542,6 +543,7 @@ a.note-link:hover {
 
 @media screen and (max-width: 768px){
     body {
+            overflow: hidden !important;
             overflow-x: hidden !important;
         }
     .mobile-mode{
