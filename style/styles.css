@@ -657,4 +657,7 @@ a.note-link:hover {
     .project {
         width: 80%;
     }
+    .project:not(:nth-child(3n)) {
+        margin-right: unset;
+    }
 }
