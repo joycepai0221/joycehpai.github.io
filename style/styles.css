@@ -545,7 +545,6 @@ a.note-link:hover {
 
 @media screen and (max-width: 768px){
     body {
-            overflow: hidden !important;
             overflow-x: hidden !important;
         }
     .mobile-mode{
