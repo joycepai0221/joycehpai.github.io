@@ -30,9 +30,9 @@ section:nth-child(1) {
     background-color: #fff;
 }
 section:not(:nth-child(1),:nth-child(2)){
-    height: 120vh;
+    height: 110vh;
     padding-top: 100px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
     /* border:1px solid red; */
 }
 section:nth-child(2) {
@@ -79,6 +79,7 @@ section:last-child {
     width:90%;
     margin: 0 auto;
 }
+
 .nav{
     display: flex;
     align-items: center;
@@ -342,6 +343,10 @@ section:last-child {
 }
 
 /* Resume */
+.resume{
+    width:80%;
+    padding: 20px 20px 0px 20px;
+}
 .resume .resume-content{
     display: flex;
     width:100%;
@@ -442,27 +447,31 @@ section:last-child {
 a.note-link{
     text-decoration:dotted;
     display: inline-block;
-    color:rgb(104, 104, 104);
+    color:black;
     font-size:18px;
-    border-bottom: 1px dotted rgb(104, 104, 104);
+    border-bottom: 1px dotted black;
+    transition: all .5s ease-in;
 }
 a.note-link:hover {
-    color: #000;
-    border-bottom: 1px dotted #000;
-    transition: .5s linear;
+    color: rgb(219, 0, 0);
+    border-bottom: 1px dotted rgb(219, 0, 0);
 }
 /* Portfolio */
+.portfolio{
+    width:80%;
+    padding: 20px 20px 0px 20px;
+}
 .projects{
-    width: 80%;
+    /* width: 80%; */
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 auto;
 }
 .project{
     width:300px;
     height:300px;
     background:gray;
-    margin:20px;
+    margin-bottom: 50px;
     position: relative;
 }
 .project:not(:nth-child(3n)){
