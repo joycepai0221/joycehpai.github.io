@@ -541,6 +541,9 @@ a.note-link:hover {
 
 
 @media screen and (max-width: 768px){
+    body {
+            overflow-x: hidden !important;
+        }
     .mobile-mode{
         display: flex;
     }
@@ -617,7 +620,9 @@ a.note-link:hover {
         margin-bottom: 30px;
     }
     .about-wrapper{
-        height:800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     section:nth-child(2) {
         padding-top: 10px;
